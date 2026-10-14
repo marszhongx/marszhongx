@@ -16,7 +16,7 @@
     "name": "钟明星",
     "email": "zomixi@qq.com",
     "mobile": "134********",
-    "github": "https://github.com/zomixi",
+    "github": "https://github.com/marszhongx",
     "workExpYear": "4",
     "workPlace": "广东广州",
     "positionTitle": "前端工程师"
@@ -117,7 +117,7 @@
     {
       "work_name": "Next.js Blog",
       "work_desc": "使用 Next.js 搭建的个人博客网站，博客管理于 Github Issues。",
-      "visit_link": "https://github.com/zomixi/blog"
+      "visit_link": "https://github.com/marszhongx/blog"
     },
     {
       "work_name": "rh.js",
@@ -127,7 +127,7 @@
     {
       "work_name": "rc-memory-manager",
       "work_desc": "可视化字节管理器",
-      "visit_link": "https://github.com/zomixi/rc-memory-manager"
+      "visit_link": "https://github.com/marszhongx/rc-memory-manager"
     }
   ],
   "aboutme": {
