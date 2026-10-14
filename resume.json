@@ -113,23 +113,6 @@
       "project_content": "1. 参与下单、物流、财务等模块的开发； 2. 参与组件库的搭建与维护"
     }
   ],
-  "workList": [
-    {
-      "work_name": "Next.js Blog",
-      "work_desc": "使用 Next.js 搭建的个人博客网站，博客管理于 Github Issues。",
-      "visit_link": "https://github.com/marszhongx/blog"
-    },
-    {
-      "work_name": "rh.js",
-      "work_desc": "前端脚手架工具",
-      "visit_link": "https://github.com/RootLinkFE/rh.js"
-    },
-    {
-      "work_name": "rc-memory-manager",
-      "work_desc": "可视化字节管理器",
-      "visit_link": "https://github.com/marszhongx/rc-memory-manager"
-    }
-  ],
   "aboutme": {
     "aboutme_desc": "自驱型前端工程师，四年前端开发经验，能熟练使用Angular、Vue、React开发大型复杂产品。"
   },
