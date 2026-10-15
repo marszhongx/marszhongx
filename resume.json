@@ -4,7 +4,6 @@
     "workExpList": "工作经历",
     "projectList": "项目经历",
     "skillList": "个人技能",
-    "awardList": "更多信息",
     "aboutme": "自我介绍"
   },
   "avatar": {
@@ -16,9 +15,9 @@
     "email": "zomixi@qq.com",
     "mobile": "134********",
     "github": "https://github.com/marszhongx",
-    "workExpYear": "4",
+    "workExpYear": "7",
     "workPlace": "广东广州",
-    "positionTitle": "前端工程师"
+    "positionTitle": "全栈开发工程师"
   },
   "educationList": [
     {
@@ -28,92 +27,112 @@
       "academic_degree": "本科"
     }
   ],
-  "awardList": [{ "award_info": "英语 CET4", "award_time": "2015" }],
   "workExpList": [
     {
+      "company_name": "广州睿狐科技有限公司",
+      "department_name": "全栈开发工程师",
+      "work_time": ["2022.06", null],
+      "work_desc": "1、专注企业级研发管理工具与解决方案，帮助企业研发团队提升 API 研发协作效率。\n2、负责 Electron 桌面端、React 渲染层与 NestJS 服务端的全链路开发。\n3、独立负责云端 Mock、自动化测试、消息通知、迭代分支等 4 个核心模块的设计与交付。\n4、构建自己的 AI 工作流，研发效率提升约 2-3 倍。"
+    },
+    {
       "company_name": "树根互联股份有限公司",
-      "department_name": "客户服务体系",
-      "work_time": ["2020.09", null],
-      "work_desc": "中级前端工程师。使用 React、Vue2、React-Native 参与开发多个B端、C端产品。"
+      "department_name": "前端开发工程师",
+      "work_time": ["2020.09", "2022.04"],
+      "work_desc": "1、国家级跨行业跨领域工业互联网平台企业，提供工业互联网数字化转型服务。\n2、参与工业互联网教育平台、小家电产业集群服务平台、数字孪生平台建设，交付形态覆盖 PC 端与物联网设备移动端。\n3、负责根云教育平台 Qiankun 微前端基座建设与三一新 C 平台协议建模工具开发，支撑数十个子应用接入。"
     },
     {
       "company_name": "广州乐摇摇信息科技有限公司",
-      "department_name": "生活娱乐部  ",
+      "department_name": "前端开发工程师",
       "work_time": ["2020.04", "2020.09"],
-      "work_desc": "中级前端工程师。使用 Vue2 参与开发多个移动C端产品；参与开发多个微信小程序、支付宝小程序。"
+      "work_desc": "1、商业物联网企业，为线下自助设备提供扫码支付与远程管控解决方案。\n2、负责设备启动小程序研发，实现扫码支付到设备启动的完整流程，支撑全平台日均支付笔数 / 订单量超过 300 万笔的无人值守场景稳定可用。"
     },
     {
       "company_name": "广州一智通供应链管理有限公司",
-      "department_name": "技术开发部",
+      "department_name": "前端开发工程师",
       "work_time": ["2018.05", "2020.04"],
-      "work_desc": "初级前端工程师。使用 Angular6 参与开发多个大型B端产品。"
+      "work_desc": "1、家居供应链服务企业，提供家居物流仓储、运输与安装一体化服务。\n2、负责家居物流供应链系统前端建设，覆盖仓储管理（WMS）、供应链管理（SCM）与运输管理（TMS）等 8 个子系统，实现从下单到签收的全流程可视化与实时状态同步。"
     }
   ],
   "skillList": [
-    { "skill_name": "HTML 和 CSS", "skill_desc": "", "skill_level": 90 },
-    { "skill_name": "TypeScript / JavaScript", "skill_level": 90 },
     {
-      "skill_name": "Angular",
-      "skill_desc": "熟练使用Angular、Rxjs、Typescript开发大型前端项目",
+      "skill_name": "前端",
+      "skill_desc": "React、Vue2 / Vue3、Angular 2+、TypeScript、Electron、React Native",
+      "skill_level": 90
+    },
+    {
+      "skill_name": "服务端",
+      "skill_desc": "Node.js、NestJS、MySQL、PostgreSQL、MikroORM",
       "skill_level": 80
     },
     {
-      "skill_name": "React",
-      "skill_desc": "熟练使用React、Redux、Typescript、Umi、Hooks开发大型前端项目",
-      "skill_level": 80
-    },
-    {
-      "skill_name": "Vue",
-      "skill_desc": "熟练使用Vue2开发大型前端项目，对响应式原理有深入的了解",
-      "skill_level": 80
+      "skill_name": "AI 提效",
+      "skill_desc": "熟练使用 Claude Code、Codex、Cursor 等 Coding Agent 进行开发提效",
+      "skill_level": 90
     }
   ],
   "projectList": [
     {
-      "project_name": "三一新C平台协议建模工具",
-      "project_role": "前端工程师",
-      "project_time": "2021.07 - 2022.03",
-      "project_desc": "新C平台是三一重工数字化转型互联网平台，该平台内含十多个子应用，协议建模工具是根据SCP2.0、STP、J1939等物联协议标准，进行元数据定义和管理，以支撑工业设备数据上云通信。",
-      "project_content": "1. 参与前端架构设计和组件开发； 2. 参与数字模型、DBC编辑器等模块开发"
+      "project_name": "Apifox",
+      "project_role": "全栈开发工程师",
+      "project_time": "2022.06 - 至今",
+      "project_desc": "API 设计、开发与测试一体化协作平台（Electron + React + NestJS），作为核心研发负责桌面端架构与多个核心模块的独立交付。",
+      "project_content": "1、设计并开发桌面端架构：落地主进程与渲染进程分层、IPC 通信机制，实现多窗口管理、本地代理服务、系统托盘、深链唤起等桌面原生能力。\n2、开发云端 Mock：支持按接口定义自动生成结构化响应、配置动态响应规则与数据虚拟化，日均 Mock 请求约 10 万次，让前端在接口未就绪时并行开发，消除联调互等。\n3、开发自动化测试功能：实现用例编排、断言校验、批量执行与测试报告，支撑全平台 4 亿+ 接口用例、700 万+ 场景用例与 2 万+ 测试套件。\n4、开发消息通知功能：支持站内信、邮件、Webhook 及飞书 / 钉钉 / 企业微信 / Teams 等多渠道触达，月均千万级消息。\n5、开发迭代分支功能：提供 API 级别的分支管理与协作机制，支持并行迭代、分支保护与合并请求（Merge Request），全平台累计创建迭代分支 13 万+。"
     },
     {
-      "project_name": "小嘿机租客户版APP",
-      "project_role": "前端工程师",
-      "project_time": "2021.07 - 2021.10",
-      "project_desc": "客户可在线租赁相关工程设备，获取商机并完成在线接单、签约、设备调度进场、施工对账等全流程，大大降低运营管理成本，限制提升服务质量与效率",
-      "project_content": "1. 负责商机、客户、商户等模块的开发； 2. 封装地址选择、日期选择等组件"
+      "project_name": "小嘿机租客户版 APP",
+      "project_role": "前端开发工程师",
+      "project_time": "2021.07 - 2021.12",
+      "project_desc": "面向客户在线租赁工程设备的移动端 APP（React Native），服务上万台工程设备与上千家租赁商户，负责 iOS / Android 双端交付。",
+      "project_content": "1、实现在线接单、签约、设备调度进场、施工对账全流程。\n2、封装定位、扫码、拍照、蓝牙设备通信等原生模块，解决 React Native 混合开发中的桥接、线程与生命周期问题。\n3、设计离线缓存与弱网重试机制，保障工地等弱网环境的数据一致性与可用性。\n4、优化长列表渲染与图片加载策略（列表虚拟化、图片缓存、按需分包），滑动帧率从约 10 fps 提升至 50 fps，显著改善中低端机型的流畅度与内存占用。"
     },
     {
-      "project_name": "住建安全统筹平台",
-      "project_role": "前端工程师",
+      "project_name": "三一新 C 平台协议建模工具",
+      "project_role": "前端开发工程师",
       "project_time": "2021.04 - 2021.07",
-      "project_desc": "广东省应急指挥系统住建安全专题，主要协助应急厅对广东省的住建安全统筹与发展，对工程器械工作、工地数据统计和分析，以及对气象数据观测应急指挥等。",
-      "project_content": "1. 参与大屏可视化系统开发； 2. GIS + MIS 结合三屏联动； 3. 跨团队协作、沟通"
+      "project_desc": "面向工业设备物联协议的元数据建模与管理工具（React + UmiJS），支撑工业设备数据上云。",
+      "project_content": "1、依据 SCP2.0、STP、J1939 等协议标准实现数十个协议模型的元数据定义与管理，将上万个协议字段抽象为可维护的模型结构。\n2、实现协议模型的字段映射、合法性校验与版本管理，为下游数据接入提供统一规范。"
     },
     {
       "project_name": "根云教育平台",
-      "project_role": "前端工程师",
+      "project_role": "前端开发工程师",
       "project_time": "2020.12 - 2021.03",
-      "project_desc": "根云教育作为树根互联旗下工业互联网教育品牌，凭借对行业的深刻理解与认识，以根云平台为核心技术支撑，携手院校构建产教融合新生态，从开发专业课程、共建工业互联网专业，建设高水平实训基地再到打造工业互联网人才培育标杆的产业学院，为企业数字化转型升级发展输送专业人才。",
-      "project_content": "1. 参与前端架构设计（微前端）； 2. 子应用包含：门户网站、数字孪生建模应用、虚拟设备应用、可视化应用、考试系统； 3. 大屏可视化编辑器子应用主要开发（Low-Code）"
+      "project_desc": "工业互联网教育平台（Qiankun + Vue2），面向企业数字化转型培养专业人才。",
+      "project_content": "1、搭建 Qiankun 主 / 子应用体系，统一登录态、路由、状态管理与 UI 基建。\n2、支撑数十个子应用独立开发、独立部署，让多个业务团队并行迭代，降低子系统接入成本。"
+    },
+    {
+      "project_name": "小家电产业集群服务平台",
+      "project_role": "前端开发工程师",
+      "project_time": "2020.10 - 2021.04",
+      "project_desc": "面向小家电产业集群的产业链协同平台（Vue2）。",
+      "project_content": "1、实现从订单、设计到生产、交付的全流程状态可视化。\n2、支撑产业链上下游在平台上直接协作，减少线下沟通成本。"
     },
     {
       "project_name": "乐摇摇科技小程序",
-      "project_role": "前端工程师",
+      "project_role": "前端开发工程师",
       "project_time": "2020.04 - 2020.09",
-      "project_desc": "乐摇摇设备启动小程序，用于线下支付并启动4G、蓝牙设备",
-      "project_content": "1. 开发抓娃娃机、吹风机等设备的下单、支付、启动等页面； 2. 对接蓝牙协议并启动设备"
+      "project_desc": "面向线下无人值守场景的设备启动小程序（微信小程序）。",
+      "project_content": "1、实现扫码支付到设备启动的完整流程，适配上百种设备型号的 4G / 蓝牙两类启动通道。\n2、设计支付链路、设备通信与异常兜底方案，保障线下场景稳定可用。"
     },
     {
-      "project_name": "物流供应链管理平台",
-      "project_role": "前端工程师",
-      "project_time": "2018.05 - 2020.04",
-      "project_desc": "家居物流供应链平台，从下单、中转、配送安装、异常上报、签收等全链路系统，包含有：SCM、IPS、CMP、BMP、BOSS、家装通App等",
-      "project_content": "1. 参与下单、物流、财务等模块的开发； 2. 参与组件库的搭建与维护"
+      "project_name": "一智通仓储管理系统 WMS",
+      "project_role": "前端开发工程师",
+      "project_time": "2018.08 - 2019.12",
+      "project_desc": "家居物流供应链的仓储管理子系统（Angular + TypeScript）。",
+      "project_content": "1、实现库存、入库、出库、盘点等核心环节的作业界面与管控流程，支撑日均千级出入库单据处理。\n2、通过自动化流程与实时数据同步保证各环节数据一致，实现仓储统一管控。"
+    },
+    {
+      "project_name": "物流供应链管理平台 SCM / TMS",
+      "project_role": "前端开发工程师",
+      "project_time": "2018.05 - 2019.12",
+      "project_desc": "家居物流供应链的管理平台 SCM 与运输管理平台 TMS（Angular 6 + RxJS + TypeScript）。",
+      "project_content": "1、实现下单、中转、配送安装、异常上报、签收全链路可视化，支撑上千万件家居商品的物流流转管理。\n2、基于 RxJS 处理多来源异步状态流，保证各环节状态实时同步、前后端数据一致。"
     }
   ],
   "aboutme": {
-    "aboutme_desc": "自驱型前端工程师，四年前端开发经验，能熟练使用Angular、Vue、React开发大型复杂产品。"
+    "aboutme_desc": "7 年全栈经验，长期担任核心研发，具备从桌面端到服务端的架构设计能力。\n熟练开发 Web、H5、微信小程序、桌面端、移动端等跨平台应用。\n熟练使用 Claude Code、Codex、Cursor 等 Coding Agent 进行开发提效。"
   },
-  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
+  }
 }
